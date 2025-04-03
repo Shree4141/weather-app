@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <h1 class="app-title">🌤️ Weather App</h1>
+        <div class="search-box">
+            <input type="text" id="cityInput" placeholder="Enter city name">
+            <button onclick="fetchWeather()"><i class="fas fa-search"></i></button>
+        </div>
+        <div class="weather-card">
+            <h2 id="cityName">--</h2>
+            <p id="temperature">🌡️ --°C</p>
+            <p id="weatherDescription">--</p>
+            <i id="weatherIcon" class="fas fa-smog"></i>
+        </div>
+    </div>
+</body>
+</html>
