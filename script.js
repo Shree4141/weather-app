@@ -5,7 +5,7 @@ async function fetchWeather() {
         return;
     }
 
-    const url =`https://weather-app-3kul.onrender.com/weather?city=${city}`;
+    const url =`https://weather-app-xsx8.onrender.com/weather?city=${city}`;
 
     try {
         const response = await fetch(url);
